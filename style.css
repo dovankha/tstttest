@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    font-size: 100%;
+    text-align: center;
+    padding: 0; !important;
+}
+
+.navbar {
+    background-color: white;
+    padding: 0;
+}
+
+.nav-link{
+    color: dimgray;
+    text-transform: none;
+    font-size: 13px;
+    padding: 23px 0 23px 22px;
+    margin: 0;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-family: "Georgia", serif, serif;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: black;
+    font-size: 100%;
+}
+
+.menu .nav-link:before {
+    content: "/";
+    margin-right: 22px;
+    font-size: 18px;
+    line-height: 1;
+    color: #ebebeb;
+}
+
+.home a:before {
+    display: none;
+}
+
+.btn-link{
+    text-decoration: none;
+    color: dodgerblue;
+    text-transform: none !important;
+}
